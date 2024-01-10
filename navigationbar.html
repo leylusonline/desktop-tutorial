@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+    ul{
+        background-color: antiquewhite;
+       display: none;
+width:100%
+
+
+    }
+    ul li {
+        display: inline-block;
+        padding: 30px;
+       
+        width:100px
+
+
+    }
+   ul li:hover{
+    background-color: burlywood;
+text-decoration: solid;
+   }
+    ul li a {
+       background-color: beige;
+        
+}
+
+ul li:nth-child(1){
+    background-color: rgba(253, 255, 127, 0.459);
+
+}
+i{
+    padding-right: 5px;
+}
+#news-content {
+            position: absolute;
+            z-index: 1;
+            display: none;
+            margin-top: 32px;
+            margin-left: -51px;
+            width: 30px;
+        }
+div, ul, li{
+    background-color:antiquewhite;
+
+
+}
+
+
+
+</style>
+
+</head>
+<body>
+    <ul>
+        <li><a href="#home"><i class="fa-solid fa-house-chimney"></i>Home </a></li>
+        <li><a href="#contact"><i class="fa-regular fa-address-card"></i>Contact</a></li>
+        <li>
+            <a href="#news">
+                <i class="fa-regular fa-newspaper">
+                    <div id="news-content">
+                        <ul>
+                            <li style="display: block;"><a href="#">News1</a></li>
+                            <li style="display: block;"><a href="#">News2</a></li>
+                            <li style="display: block;"><a href="#">News3</a></li>
+                            <li style="display: block;"><a href="#">News4</a></li>
+                        </ul>
+                    </div>
+                </i>News</a>
+        </li>
+        <li><a href="#about"><i class="fa-solid fa-eject"></i>About</a></li>
+    </ul>
+</body>
+</html>
